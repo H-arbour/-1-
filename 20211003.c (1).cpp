@@ -1,3 +1,7 @@
+//写的是关于：输入n的值，求下列级数的前n项和。
+//s=1+3+5+7+…(n项)
+//如输入n的值为3，则结果为9的代码。
+
 #include <stdio.h>
 
 int main()
@@ -5,7 +9,7 @@ int main()
 	int i,s,n;
 	while (3>2)
 {
-    printf("������n��ֵ��-8848������:");		
+    printf("请输入n的值（-8848结束）:");		
 	scanf("%d",&n);	
     if(n==-8848)
 	break;	
